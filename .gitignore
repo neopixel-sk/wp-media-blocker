@@ -1,0 +1,66 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+
+# IDE and Editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.php_cs.cache
+.phpcs.xml.dist
+*.swp
+*.swo
+
+# Node modules and build directories
+node_modules/
+vendor/
+build/
+dist/
+assets/build/
+
+# Package management
+composer.phar
+package-lock.json
+yarn.lock
+composer.lock
+
+# Generated files
+*.log
+*.pot
+*.mo
+*.min.css
+*.min.js
+
+# Unit testing / CI config
+phpunit.xml
+.phpunit.result.cache
+.travis.yml
+phpcs.xml
+phpcs.xml.dist
+phpunit.xml.dist
+
+# Misc
+.htaccess
+todo.txt
+notes.md
+.sass-cache/
+
+# Development-specific files
+.git/
+.github/
+.gitlab/
+.editorconfig
+.jshintrc
+.eslintrc
+.eslintignore
+.stylelintrc
+.stylelintignore
+.babelrc
+webpack.config.js
+gulpfile.js
+*.md
+!readme.txt
